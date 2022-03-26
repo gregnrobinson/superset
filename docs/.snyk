@@ -1,0 +1,786 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gatsby-theme-docz > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - node-sass > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - swagger-ui-react > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > @babel/core > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - antd > @ant-design/react-slick > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-plugin-lodash > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > css-loader > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > devcert > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > eslint > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > webpack-merge > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > react-resize-detector > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > rehype-docz > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - swagger-ui-react > react-redux > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - swagger-ui-react > redux > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - swagger-ui-react > swagger-client > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > remark-docz > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > @babel/core > @babel/traverse > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-plugin-antd > antd > @ant-design/react-slick > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > docz-utils > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > rehype-docz > docz-utils > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-plugin-typescript > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/cli > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-plugin-lodash > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-plugin-lodash > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > css-loader > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > css-loader > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > devcert > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > devcert > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > eslint > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > eslint > table > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > eslint > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > eslint > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > webpack-merge > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > webpack-merge > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > react-resize-detector > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > rehype-docz > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-plugin-antd > babel-plugin-import > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > remark-docz > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-plugin-typescript > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > remark-docz > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/traverse > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > rehype-docz > docz-utils > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > @babel/register > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > @babel/cli > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen > async > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-plugin-lodash > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > css-loader > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > devcert > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > eslint > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > eslint > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > eslint > table > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > eslint > table > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > eslint > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > contentful-management > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > webpack-merge > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@superset-ui/style > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-plugin-emotion > @emotion/babel-preset-css-prop > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > docz-utils > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-plugin-typescript > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > remark-docz > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-plugin-typescript > @babel/plugin-proposal-optional-chaining > @babel/helper-skip-transparent-expression-wrappers > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-plugin-lodash > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @babel/plugin-transform-react-jsx-development > @babel/helper-builder-react-jsx-experimental > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > async > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > @typescript-eslint/parser > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > eslint > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > eslint > table > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > contentful-management > contentful-sdk-core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > contentful-management > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > contentful-management > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > react-dev-utils > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@superset-ui/style > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - theme-ui > @theme-ui/mdx > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-emotion > @emotion/babel-preset-css-prop > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-plugin-typescript > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-plugin-typescript > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx-experimental > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/plugin-proposal-optional-chaining > @babel/helper-skip-transparent-expression-wrappers > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-plugin-typescript > @babel/plugin-proposal-optional-chaining > @babel/helper-skip-transparent-expression-wrappers > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > @typescript-eslint/parser > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @babel/plugin-transform-react-jsx-development > @babel/helper-builder-react-jsx-experimental > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @babel/plugin-transform-react-jsx-development > @babel/helper-builder-react-jsx-experimental > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > webpack-dev-server > portfinder > async > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > contentful-management > contentful-sdk-core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > contentful-management > contentful-sdk-core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > contentful-management > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - theme-ui > @theme-ui/theme-provider > @theme-ui/mdx > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-emotion > @emotion/babel-preset-css-prop > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx-experimental > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-plugin-typescript > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx-experimental > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx-experimental > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/plugin-proposal-optional-chaining > @babel/helper-skip-transparent-expression-wrappers > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @babel/plugin-transform-react-jsx-development > @babel/helper-builder-react-jsx-experimental > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @babel/plugin-transform-react-jsx-development > @babel/helper-builder-react-jsx-experimental > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > contentful-management > contentful-sdk-core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - theme-ui > @theme-ui/theme-provider > @theme-ui/mdx > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx-experimental > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx-experimental > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx-experimental > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @babel/plugin-transform-react-jsx-development > @babel/helper-builder-react-jsx-experimental > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - theme-ui > @theme-ui/theme-provider > @theme-ui/color-modes > @theme-ui/core > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/plugin-transform-react-jsx > @babel/helper-builder-react-jsx-experimental > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - '@mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > react-docgen-actual-name-handler > react-docgen > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby-plugin-mdx > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > @mdx-js/mdx > remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-proposal-private-methods > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
+    - docz > gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-26T03:58:08.084Z'
