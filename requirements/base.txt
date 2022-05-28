@@ -21,7 +21,7 @@ attrs==20.2.0
     # via
     #   aiohttp
     #   jsonschema
-babel==2.8.0
+babel==2.9.1
     # via flask-babel
 backoff==1.10.0
     # via apache-superset
@@ -68,7 +68,7 @@ dnspython==2.0.0
     # via email-validator
 email-validator==1.1.1
     # via flask-appbuilder
-flask-appbuilder==3.3.0
+flask-appbuilder==3.4.5
     # via apache-superset
 flask-babel==1.0.0
     # via flask-appbuilder
@@ -195,7 +195,7 @@ pyarrow==4.0.1
     # via apache-superset
 pycparser==2.20
     # via cffi
-pyjwt==1.7.1
+pyjwt==2.4.0
     # via
     #   apache-superset
     #   flask-appbuilder
@@ -297,7 +297,7 @@ werkzeug==1.0.1
     #   flask-jwt-extended
 wtforms-json==0.3.3
     # via apache-superset
-wtforms==2.3.3
+wtforms==3.0.0a1
     # via
     #   flask-wtf
     #   wtforms-json
